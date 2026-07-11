@@ -1,0 +1,109 @@
+body{
+background-color: antiqueWhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+.brand img{
+   width: 55px;
+   position: relative;
+   top: 19px;
+   padding:0px 8px;
+}
+.brand{
+   position: relative;
+   /* display: flex; */
+   /* align-items: center; */
+   bottom: 19px;
+   font-weight: bold;
+   font-size: 1.3rem;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 80vw;
+    border-radius: 10px;
+    padding: 13px;
+    background-image: url("glowing-musical-pentagram-background-with-sound-notes_1017-31220.avif");
+    font-family: 'varela round', sans-serif;
+}
+.bottom{
+    position:sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.icons{
+    margin-top: 14px;
+
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+  cursor: pointer;
+
+}
+.songIteamContainer{
+    margin-top: 74px;
+}
+.songIteam{
+    height: 50px;
+    display: flex;
+    background-color:white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songIteam img{
+    width:44px;
+    margin: 0px 34px;
+    border-radius: 50%;
+}
+.timestamp{
+    margin: 0px 34px;
+   
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+   position: absolute;
+   left: 10vw;
+   color:wheat;
+   font-family: 'varela round', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+
+}
