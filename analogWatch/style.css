@@ -1,0 +1,36 @@
+#container{
+    margin: auto;
+    height: 40vw;
+    width:40vw ;
+    position: relative;
+    background-image: url("image.jpg");
+    background-color: rgb(1, 0, 60);
+    background-size: 100%;
+}
+#hours, #min, #sec{
+    background-color: black;
+    position:absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hours{
+     width:1%;
+    height: 19%;
+    top:32%;
+    left: 49.6%;
+    opacity: 0.8;
+}
+#min{
+    width: 1%;
+    height: 21%;
+    top: 30%;
+    left: 49.7%;
+    opacity: 0.8;
+}
+#sec{
+    width: 1px;
+    height: 25%;
+    top:26%;
+    left: 49.95%;
+    opacity: 0.8;
+}
